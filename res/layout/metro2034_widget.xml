@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/AbsoluteLayout"
+    android:layout_width="240px"
+    android:layout_height="240px"
+    android:background="@drawable/bg" >
+
+    <ImageView
+        android:id="@+id/hours_first_value"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="7px"
+        android:layout_y="89px"
+        android:src="@drawable/_0" />
+    
+    <ImageView
+        android:id="@+id/hours_second_value"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="64px"
+        android:layout_y="89px"
+        android:src="@drawable/_0" />
+  
+    <ImageView
+        android:id="@+id/minutes_first_value"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="129px"
+        android:layout_y="89px"
+        android:src="@drawable/_0" />
+
+    <ImageView
+        android:id="@+id/minutes_second_value"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="186px"
+        android:layout_y="89px"
+        android:src="@drawable/_0" />
+
+    <TextView
+        android:id="@+id/date"
+        android:layout_width="145px"
+        android:layout_height="wrap_content"
+        android:layout_x="48px"
+        android:layout_y="5px"
+        android:gravity="center_horizontal"
+        android:text="Date"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#0586c6" />
+    
+</AbsoluteLayout>
